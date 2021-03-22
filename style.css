@@ -170,7 +170,7 @@ form {
   opacity: 0.9;
   border: 5px #ddd solid;
   border-radius: 5px;
-  font-family: "Helvetica Neue", Arial;
+  font-family: "proxima-nova",-apple-system,BlinkMacSystemFont,Segoe UI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #mobile-intro-popup p {
@@ -238,9 +238,14 @@ div.dataTables_scrollHead {
 }
 
 .dataTable * {
-  font-family: "Helvetica Neue", Arial;
+  font-family: "proxima-nova",-apple-system,BlinkMacSystemFont,Segoe UI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   border: 0 !important;
 }
+/* general typography */
+.leaflet-container {
+	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+	}
+
 
 div.dataTables_scrollHead table.display {
   background-color: #444;
