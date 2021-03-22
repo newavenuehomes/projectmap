@@ -1,22 +1,11 @@
 # Project Map
 Leaflet map of the projects New Avenue has completed or worked on over the years.
 
-![Preview](preview.jpg)
-
 ## Live links (replace with your own)
 - Leaflet Map https://newavenuehomes.github.io/projectmap/
 
 #### Geocode your address data with Google Sheets add-on
 To geocode (find latitude and longitude coordinates), we recommend installing the free [Geocoding by SmartMonkey add-on for Google Sheets](https://gsuite.google.com/marketplace/app/geocoding_by_smartmonkey/1033231575312). Insert your addresses in place of the samples in the Geocoding Details tab, then use Add-Ons > Geocoding > Geocode Details menu. Learn more in *Hands-On Data Visualization* https://handsondataviz.org/geocode.html
-
-![Geocoding](geocode.png)
-
-#### To finalize your map, you need to either:
-- Download each Google Sheets tab as a CSV file and upload into a `csv` subfolder in your GitHub repo
-  - OR
-- Get your own Google Sheets API Key to insert into `google-doc-url.js`
-
-See Steps G or H in the tutorial https://handsondataviz.org/leaflet-maps-with-google-sheets.html
 
 ## Credits (and licenses)
 Developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](https://github.com/jackdougherty) with support from Trinity College CT. Inspired by Code for Atlanta mapsfor.us (2016) https://github.com/codeforatlanta/mapsforus (BSD-3-Clause)
